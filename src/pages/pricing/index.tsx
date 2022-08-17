@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Pricing = () => {
+import type { NextPage } from 'next';
+const Pricing: NextPage = () => {
   return (
     <div>Pricing</div>
   )
