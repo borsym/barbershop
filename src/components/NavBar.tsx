@@ -1,10 +1,11 @@
 import React, { ReactElement } from 'react';
-import CostumeButton from './CostumeButton';
+import CostumeButton from './common/CostumeButton';
 import KeniBarberShopIcon from './Icons/KeniBarberShopIcon';
 
 import { Grid, Typography, Link } from '@mui/material';
 import { ROUTEING } from '../routeing';
 import { Route } from '../types/types';
+
 const NavBar = () => {
   const renderButtons = ROUTEING.map(
     (el: Route): ReactElement => (
