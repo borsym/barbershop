@@ -8,7 +8,10 @@ interface Props {
 }
 
 const Item = ({ children, className, textAlign }: Props) => (
-  <Typography textAlign={textAlign} className={className}>
+  <Typography
+    textAlign={textAlign}
+    className={className}
+  >
     {children}
   </Typography>
 );

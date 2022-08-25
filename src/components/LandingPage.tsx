@@ -7,7 +7,7 @@ const LandingPage = () => {
     <Grid
       container
       style={{
-        backgroundColor: '#232228',
+        backgroundColor: '#222831',
         boxShadow: '3px 3px 5px 3px rgb(0 0 0 ,0.8)',
       }}
     >
@@ -25,7 +25,7 @@ const LandingPage = () => {
           </Typography>
         </Grid>
         <Grid item xs={3}>
-          <CostumeButton variant={'outlined'}> Book Now!</CostumeButton>
+          <CostumeButton variant={'outlined'}> Book Now! </CostumeButton>
         </Grid>
       </Grid>
     </Grid>

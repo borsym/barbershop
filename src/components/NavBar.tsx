@@ -22,7 +22,7 @@ const NavBar = () => {
   );
 
   return (
-    <Grid container spacing={2} sx={{ gridArea: 'header', bgcolor: '#232228' }}>
+    <Grid container spacing={2} sx={{ gridArea: 'header', bgcolor: '#393E46' }}>
       <Grid item xs={8} alignItems="center">
         {renderTitleWithIcon}
       </Grid>
